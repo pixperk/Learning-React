@@ -15,4 +15,7 @@ app.get('/', (req, res)=> {
     res.status(200).json({message: "Hello from DALL.E"})
 })
 
-app.listen(8080, ()=> console.log('Server has started on port 8080'))
+const PORT = 5143; // Or any other available port
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});

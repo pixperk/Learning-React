@@ -24,14 +24,14 @@ const Home = () => {
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
+              <h1  className="head-text">
                 LET'S <br className="xl: block hidden" /> DO IT.
               </h1>
             </motion.div>
             <motion.div
             {...headContentAnimation}
             className="flex flex-col gap-5">
-              <p className="max-w-md font-normal text-gray-600">
+              <p className="max-w-md font-normal text-white">
                 Step into the Future of Fashion with Our Exclusive 3D
                 Illustrated T-Shirt!<br/><strong>Elevate Your Style</strong>{" "}<br/><strong> Embrace
                 Individuality</strong>
